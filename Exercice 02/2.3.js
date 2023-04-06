@@ -1,6 +1,6 @@
-// Exécution 100fois boucle while
+// // Exécution 100fois boucle while
 
-// let num = 0;
+// let num = 1;
 
 // while (num <= 100) {
 //     if (num % 2 === 0) {
@@ -16,8 +16,6 @@
 let num = 2;
 
 for (i=0; i<50; i++){
-    if (num % 2 === 0){
         console.log(num);
         num+=2;
-    }
 }
