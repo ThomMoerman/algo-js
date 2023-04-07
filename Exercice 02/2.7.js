@@ -5,10 +5,12 @@ const prompt = require("prompt-sync")({
 });
 
 let n = prompt("Enter an interation number : ");
-let num = 0;
+var num = 0;
+var result = 0;
 
 for(i=1;i<=n;i++){
-    prompt("Enter an interation number : ");
+    num =prompt("Enter a number : ");
+    result= parseInt(result) + parseInt(num);
 }
 
-console.log(num);
+console.log('The addition of the previous numbers is equal to ' + result);
