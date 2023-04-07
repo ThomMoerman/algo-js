@@ -2,6 +2,12 @@
 
 // Write a documentation for the calcSurface function.
 
+/**
+ * Calculate the surface of a rectangle 
+ * @param { Number } lengthRec
+ * @param { Number } widthRec
+ * @return { Number } 
+ */
 function calcSurface(lengthRec, widthRec) {
     let surface = lengthRec*widthRec
     return surface;
