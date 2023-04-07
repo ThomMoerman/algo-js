@@ -18,13 +18,6 @@ function pickLearner(inputAr, n) {
     for (i = 0; i < n; i++) {
         var randomLearner = inputAr[Math.floor(Math.random() * inputAr.length)];
 
-        // if (arr.includes(randomLearner)) {
-        //     var index = inputAr.indexOf(randomLearner);
-        //     inputAr.splice(index, 1)
-        //     randomLearner = inputAr[Math.floor(Math.random() * inputAr.length)];
-        //     arr.push(randomLearner);
-        // } else { arr.push(randomLearner); }
-
         while(arr.includes(randomLearner)){
             randomLearner = inputAr[Math.floor(Math.random() * inputAr.length)];
         }
