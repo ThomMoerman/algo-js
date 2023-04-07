@@ -20,12 +20,11 @@ function pickLearner(inputAr, n) {
 
         while(arr.includes(randomLearner)){
             randomLearner = inputAr[Math.floor(Math.random() * inputAr.length)];
-        }
-
+        }        
         arr.push(randomLearner);
     }
 
     return arr;
 }
 
-console.log(pickLearner(arrLearners, 4));
+console.log(pickLearner(arrLearners, 16));
