@@ -30,7 +30,7 @@ function askSerie(){
         tvSerie.Name_of_cast_members.push(prompt("Enter the cast members : "));
         reponse = prompt("Another member ? (Y or N) : ");
     }
-    console.log(tvSerie)
+    console.log(JSON.stringify(tvSerie, null, 3))
 }
 
 askSerie();
