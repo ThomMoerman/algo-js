@@ -27,4 +27,4 @@ function pickLearner(inputAr, n) {
     return arr;
 }
 
-console.log(pickLearner(arrLearners, 16));
+console.log(pickLearner(arrLearners, 6));
